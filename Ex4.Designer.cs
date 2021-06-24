@@ -38,11 +38,15 @@ namespace WinFormsApp1
             this.ClientSize = new System.Drawing.Size(699, 357);
             this.Name = "Ex4";
             this.Text = "Ex4";
-            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Ex4_MouseMove);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Ex4_MouseDown);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Ex4_MouseUp);
             this.ResumeLayout(false);
 
         }
 
         #endregion
     }
+
+
+
 }
