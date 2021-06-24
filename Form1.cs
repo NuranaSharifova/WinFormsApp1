@@ -16,6 +16,7 @@ namespace WinFormsApp1
         Ex2 ex2 = new Ex2();
         Ex3 ex3 = new Ex3();
         Ex4 ex4 = new Ex4();
+        Ex5 ex5 = new Ex5();
         public Form1()
         {
             InitializeComponent();
@@ -41,6 +42,11 @@ namespace WinFormsApp1
         private void button4_Click(object sender, EventArgs e)
         {
             ex4.ShowDialog();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ex5.ShowDialog();
         }
     }
 }
